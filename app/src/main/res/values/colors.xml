@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e859a</color>
+    <color name="colorPrimaryDark">#1e859a</color>
+    <color name="colorAccent">#f851c4d4</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2B7DE9</color>
+    <color name="fadetextcolor">#9bffffff</color>
+
+
+    <color name="dividercolor">#3b0d004c</color>
+    <color name="colorDivider">#3b0d004c</color>
+
+
+    <color name="inactiveAlarmBg">#730d004c</color>
+    <color name="activeAlarmBg">#4e0d004c</color>
+
+
+    <color name="dailogtheme">#f851c4d4</color>
+    <color name="activeMusic">#4d0d004c</color>
+
+
+    <color name="checkedcolor">#1e859a</color>
+    <color name="uncheckedcolor">#be005952</color>
+
+    <color name="colorIconText">#788898</color>
+    <color name="activeDivider">#45ffffff</color>
+    <color name="inactiveDivider">#642df0d9</color>
+
+
+    <color name="inactiveText">#b4b1fff9</color>
+
+
+</resources>

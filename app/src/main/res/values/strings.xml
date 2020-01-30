@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">Azaan Alarm</string>
+    <string name="alarm_time">12:40</string>
+    <string name="am_pm">pm</string>
+
+    <string name="Repeat">Repeat</string>
+    <string name="repeat_never">never</string>
+    <string name="alarm_tone">Azaan  Tone</string>
+    <string name="default_tone">default</string>
+    <string name="alarmtype">Reminder Type</string>
+    <string name="Sound">sound</string>
+    <string name="alarm_name">Azaan message</string>
+    <string name="alarm_sound">Azaan  Volume</string>
+    <string name="custom_review">(%1$s)</string>
+    <string name="custom_place_type">%1$s . %2$s mi</string>
+
+    <string name="none">N/A</string>
+    <string name="opened">Opened</string>
+    <string name="closed">Closed</string>
+    <string name="Done">Done</string>
+    <string name="song">Track</string>
+    <string name="artist">Artist</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="salah_reminder">Reminder of Salah</string>
+    <string name="set_salah_reminder">Set reminder time in minutes</string>
+    <string name="number_hint">10 </string>
+    <string name="number_input">Only number like 12 , 10 etc</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="azaan_dua">Azaan Dua</string>
+
+
+    <string name="benifits_fazilat">Benefits/Fazilat of Salah</string>
+    <string name="rabbana_dua">Rabbana Dua</string>
+    <string name="salat_wakt_time">Salah Waqt/Time</string>
+    <string name="compass">Compass</string>
+    <string name="find_mosque">Find mosque</string>
+    <string name="selected">Selected</string>
+    <string name="individual_benifits_of_5_salah">Individual Benefits of 5 Salah</string>
+    <string name="azaan_dua_arabic">اللّهُـمَّ رَبَّ هَذِهِ الدّعْـوَةِ التّـامَّة وَالصّلاةِ القَـائِمَة آتِ محَـمَّداً الوَسيـلةَ وَالْفَضـيلَة وَابْعَـثْه مَقـامـاً مَحـموداً الَّذي وَعَـدْتَه إِنَّـكَ لا تُـخْلِفُ الميـعاد</string>
+    <string name="azaan_dua_pronounciation">Transliteration :\n\n  Allahumma Rabba hathihid-da watit tammati wassalatil qa-imati, ati Muhammada-nil-wasilata wal-fadhilata wad-darajatar-rafi ‘ata, wab ‘ath-hu maqamam-mahmuda-nil-lathi wa’attahu. Innaka la tukhliful mi’ad.</string>
+    <string name="azaan_dua_meaning">Meaning :\n\n O Allah, Lord of this Perfect Call, and of the Congregational Prayer, make Muhammad a means of our access to You, and bless him with excellence and the lofty office, And grant him the most exalted station Thou hast promised him. Verily Thou goest not back on Thy promise.</string>
+    <string name="first_msg">Azaan times are set approximately , please change accrording to your locality.</string>
+
+    <string name="no_internet">You have no internet connection, you can still set up your alarm time manually</string>
+    <string name="disclaimer">Azaan Alarm needs GPS and internet connection to set up your GMT by accessing location and zone time by the system. If you have no internet connection, you can set up your Alarm time manually.</string>
+    <string name="share_text">Check out @string/app_name, your ultimate azan alarm app that provides accurate Muslim prayer times based on your current location with multiple settings available. Find the most convenient Azaan collections in one place.
+Play Store Link: https://goo.gl/6uLJyH</string>
+
+    <string name="theme">Azaan and Salah Reminder</string>
+    <string name="salat_benifits">Benefits of Salah</string>
+    <string name="fajr">Fajr (dawn)</string>
+    <string name="zuhr">Zuhr (midday)</string>
+    <string name="asr">Asr (afternoon)</string>
+    <string name="maghrib">Maghrib (sunset)</string>
+    <string name="isha">Isha (night)</string>
+    <string name="click_to_change">Click to change</string>
+    <string name="auto">Auto</string>
+    <string name="auto_time_detect">Auto Time Detect</string>
+    <string name="manual">Manual</string>
+    <string name="reminder">Salah Reminder</string>
+    <string name="reward_of_salat">As far as the reward is concerned every fard prayer carry the same reward and their reward is with Allah Almighty.In the holy Quran, Allah Subhanahu wa taala states that;
+        \n“Those who believe and do deeds of righteousness, and establish regular prayers and regular charity — they will have their reward with their Lord. On them shall be no fear, nor shall they grieve.”\n
+        —Surah al-Baqarah (Holy Quran, 2:277).\n\n The importance of prayer is conveyed constantly in the Quran and was also stressed by the  Prophet Muhammad (pbuh):\n\n “Know that among your duties, prayer is foremost”.\n\n Don’t forget what’s important in this life. Prayer really is one of the most beautiful acts and cleanses the soul and brings about happiness and contentment.</string>
+    <string name="benifits_fazilat_of_salah">Importance and Rewards of Salah</string>
+    <string name="fazr_benifits"> The first prayer which starts with the day is Fajr Prayer. Actually, Fajr is the Arabic word which means dawn.  Prophet (SAW) said: \n\n“Whoever offers the Morning Prayer, he is under the protection of Allah, the Mighty and Sublime” \n(Ibn Majah).\n
+        The reward of praying Fajr in Congregation: Our beloved Prophet (SAW) said: \n\n“Whoever prays the morning prayer in congregation then sits remembering Allah until the sun rises, then prays two units of prayer has the reward like that of Hajj and `Umrah.”\n(Tirmidhi)\n
+    </string>
+    <string name="zuhr_benifits"> Zuhr is the second prayer which a Muslim has to offer in a day. As far as the Sunnah of Zuhr are concerned, Prophet Muhammad (PBUH) said in a hadith:\n\n
+        “Whoever observes the practice of performing four Rakat before Zuhr prayer and four (2 sunnah, 2 nafl) after the zuhr prayer, Allah will send him against the Fire (of Hell).” \n(Tirmidhi)\n
+        At another place, Prophet Muhammad (PBUH) said pertaining to Zuhr prayer:\n\n
+        “This is an hour at which the gates of heaven are opened, and I like that my good deeds should rise to heaven at that time.”\n (Tirmidhi)\n
+    </string>
+
+
+    <string name="asr_benifits">Asr is the third of obligatory prayer and is offered at the time of afternoon.
+    In one of the hadiths, \nProphet Muhammad (PBUH) said:\n\n “He who observes Al-Bardan (i.e. Fajr and Asr prayers) will enter Jannah.” \n(Bukhari).\n
+    At another place, Prophet Muhammad (PBUH) said:\n\n “He who performs Salah (prayers) before the rising of the sun and before its setting, will not enter the Hell.” \n(Muslim)\n</string>
+
+    <string name="magrib_benifits">The Maghrib salah is the fourth of the five daily prayers that we perform, and it is prayed at dusk.
+    Abu Ayyub (RA) narrated that Rasool Allah (SAW) said, \n\n “My Ummah will continue to be on good (or on fitrah) as long as they do not delay Maghrib salah till the stars become apparent.”\n
+    Allah showers all His blessings and rewards on you when you offer prayers.\n
+    Allah will fulfill all your Dua’s and wishes.\n
+    Allah will give you success in wealth and family.\n</string>
+
+    <string name="isha_benifits">Isha is the last of the five prayers of the day, which is offered at night. Isha salah may be difficult for some people to perform due to it being the last prayer at the end of the day.
+        \n\n“The most difficult salah for the munafiqeen is isha and fajr. Had they known the rewards for them they would have attended them even if they had to crawl on their knees.”\n(Bukhari)\n.
+    The following hadith mentions one such spiritual benefit: Uthman bin Affan (RA) reported that  the Messenger (SAW) said:\n\n “Whoever offers ‘Isha salah in jama’ah, it is as though he spent half the night in worship. And whoever offers Fajr salah in jama’ah, it is as though he spent the entire night in worship.” \n(Muslim)\n</string>
+
+
+    <string name="waqt_of_fajr">This is the first prayer of the day at dawn. Islamic tradition distinguishes two different times for dawn: when the first light appears at the horizon, rather vertical (like the “tail of a wolf” as tradition says), and then, after this first light disappears, when the light of the early day spreads horizontally across the horizon. The first dawn is called “Subh Kadhib” or “Fajr-al-Mustateel” and the second “Subh Sadiq” or “Fajr-al-Mustatir”. Fajr is to be prayed at the second dawn, Subh Sadiq. However, as we explain below, adjustments have to be made for higher latitudes where the glow of the day never disappears in summer and never appears in winter.</string>
+
+
+    <string name="waqt_of_zuhur">The midday prayer just as the sun declines after having reached its highest position in the sky (zenith). Zuhr is prayed five minutes after zenith.</string>
+
+
+    <string name="waqt_of_asr">The mid-afternoon prayer. The time of this prayer is determined according to the length of the shadow of a stick planted in the ground. According to the major schools of jurisprudence in Islam: Maliki, Shafi’i, Hanbali, Hanafi and Ja’afriyah (Shia), the length of the shadow with respect to that of the stick is calculated differently (factors varying from one to two). We give below the details of these various options. All these traditions are legitimate and worthy of respect. We leave the choice of the school to the user.</string>
+
+    <string name="waqt_of_magrib">The Maghrib prayer begins when the sun sets, and lasts till the red light has left the sky in the west. It usually lasts for about 18 to 20 minutes from the start of Isha Time.</string>
+
+
+    <string name="waqt_of_isha">The time at which darkness falls and there is no scattered light in the sky.The Isha  prayer starts when the red light is gone from the western sky, and lasts until the rise of the "white light" (fajr sadiq) in the east. The preferred time for Isha is before midnight, meaning halfway between sunset and sunrise.</string>
+
+    <string name="dua1">رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيعُ العَلِيمُ</string>
+
+
+    <string name="dua1english">Rabbana taqabbal minna innaka antas Sameeaul Aleem.\n\n
+        Our Lord! Accept (this service) from us: For Thou art the All-Hearing, the All-knowing.\n
+        Surah Al-Baqarah - 2:127</string>
+
+    <string name="dua2">رَبَّنَا وَاجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَا أُمَّةً مُّسْلِمَةً لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ إِنَّكَ أَنتَ التَّوَّابُ الرَّحِيمُُ</string>
+    <string name="dua2english">Rabbana wa-j\'alna Muslimayni laka wa min Dhurriyatina \'Ummatan Muslimatan laka wa \'Arina Manasikana wa tub \'alayna \'innaka \'antat-Tawwabu-Raheem.\n\n
+        Our Lord! Make of us Muslims, bowing to Thy (Will), and of our progeny a people Muslim, bowing to Thy (will); and show us our place for the celebration of (due) rites; and turn unto us (in Mercy); for Thou art the Oft-Returning, Most Merciful.
+        \n\nSurah Al-Baqarah - 2:128</string>
+
+
+    <string name="dua3">رَبَّنَآ اٰتِنَا فِي الدُّنْيَا حَسَنَةً وَّفِي الْاٰخِرَةِ حَسَـنَةً وَّقِنَا عَذَابَ النَّارُُِ</string>
+    <string name="dua3english">Rabbanaaa Aatinaa Fiddunyaa H’asanata Wa Fil Aakhirati H’asanata Wa Qinaa A’d’aaban Naar.
+        \n\nOur Lord! Give us in this world that which is good and in the Hereafter that which is good, and save us from the torment of the Fire!
+    \n\nSurah Al-Baqarah - 2:201</string>
+
+
+    <string name="dua4">رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْراً وَثَبِّتْ أَقْدَامَنَا وَانصُرْنَا عَلَى القَوْمِ الكَافِرِينَُُِ</string>
+    <string name="dua4english">Rabbana afrigh \'alayna sabran wa thabbit aqdamana wansurna \'alal-qawmil-kafirin.\n\n
+        Our Lord! Bestow on us endurance, make our foothold sure, and give us help against the disbelieving folk.
+      \n\nAl-Baqarah - 2:250</string>
+
+
+    <string name="dua5">ۭرَبَّنَا لَا تُؤَاخِذْنَآ اِنْ نَّسِيْنَآ اَوْ اَخْطَاْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ اِصْرًا كَمَا حَمَلْتَهٗ عَلَي الَّذِيْنَ مِنْ قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهٖ ۚ وَاعْفُ عَنَّا ۪ وَاغْفِرْ لَنَا ۪ وَارْحَمْنَا ۪ اَنْتَ مَوْلٰىنَا فَانْــصُرْنَا عَلَي الْقَوْمِ الْكٰفِرِيْنَ</string>
+    <string name="dua5english">Rabbanaa Laa Too-Akhid’naaa In-Naseenaa Aw Akht’aanaa Rabbanaa wa Laa Tah’mil A’laynaaa Is’ran Kamaa Ha’maltahoo A’lal Lad’eena min Qablinaa Rabbanaa wa Laa Tuh’ammilnaa Maa Laa T’aaqata Lanaa Bih Wa’-Fu A’nnaa Waghfirlanaa Warh’amnaa Anta Mawlaanaa Fans’urnaa A’lal Qawmil Kaafireen.
+        \n\nAllah burdens not a person beyond his scope. He gets reward for that (good) which he has earned, and he is punished for that (evil) which he has earned. "Our Lord! Punish us not if we forget or fall into error, our Lord! Lay not on us a burden like that which You did lay on those before us; our Lord! Put not on us a burden greater than we have strength to bear. Pardon us and grant us Forgiveness. Have mercy on us. You are our Maula (Patron, Supporter and Protector, etc.) and give us victory over the disbelieving people."
+\n\nSurah Al-Baqarah - 2:286</string>
+
+
+    <string name="dua6">ۭرَبَّنَا لَا تُزِغْ قُلُوْبَنَا بَعْدَ اِذْ ھَدَيْتَنَا وَھَبْ لَنَا مِنْ لَّدُنْكَ رَحْمَةً ۚ اِنَّكَ اَنْتَ الْوَھَّابَُ</string>
+    <string name="dua6english">Rabbanaa Laa Tuzigh Quloobanaa Ba’-Da Id’hadaytanaa Wa Hab Lanaa Mil Ladunka Rah’mah Innaka Antal Wahaab.\n\n Our Lord! Let not our hearts deviate (from the truth) after You have guided us, and grant us mercy from You. Truly, You are the Bestower.
+        \n\nSurah Al-Imran - 3:8</string>
+
+    <string name="dua7">رَبَّنَا إِنَّكَ جَامِعُ النَّاسِ لِيَوْمٍ لاَّ رَيْبَ فِيهِ إِنَّ اللّهَ لاَ يُخْلِفُ الْمِيعَادَ</string>
+    <string name="dua7english">Rabbana innaka jami\'unnasi li-Yawmil la rayba fi innAllaha la yukhliful mi\'aad.\n\n
+        Our Lord, surely You will gather the people for a Day about which there is no doubt. Indeed, Allah does not fail in His promise.
+\n\nSurah Al-Imran - 3:9</string>
+
+    <string name="dua8">رَبَّنَآ اِنَّنَآ اٰمَنَّا فَاغْفِرْ لَنَا ذُنُوْبَنَا وَقِنَا عَذَابَ النَّارَِ</string>
+    <string name="dua8english">Rabbana innana amanna faghfir lana dhunuubana wa qinna \'adhaban-Naar.\n\n
+        Our Lord! We have indeed believed, so forgive us our sins and save us from the punishment of the Fire.
+\n\nSurah Al-Imran - 3:9</string>
+
+
+    <string name="dua9">رَبَّنَا آمَنَّا بِمَا أَنزَلَتْ وَاتَّبَعْنَا الرَّسُولَ فَاكْتُبْنَا مَعَ الشَّاهِدِينََِِ</string>
+    <string name="dua9english">Rabbana amanna bima anzalta wattaba \'nar-Rusula fak-tubna ma\'ash-Shahideen.\n\n
+        Our Lord! We believe in what Thou hast revealed, and we follow the Messenger. Then write us down among those who bear witness.
+\n\nSurah Al-Imran - 3:9</string>
+
+    <string name="dua10">رَبَّنَا اغْفِرْ لَنَا ذُنُوْبَنَا وَ اِسْرَافَنَا فِيْٓ اَمْرِنَا وَثَبِّتْ اَقْدَامَنَا وَانْصُرْنَا عَلَي الْقَوْمِ الْكٰفِرِيْنَََِِ</string>
+    <string name="dua10english">Rabbanaghfir lanaa d’unoobanaa wa israafanaa fee amrinaa wa thabbit aqdaamanaa wan s’urnaa a’lal qawmil kaafireen.\n\n
+        Our Lord! Forgive us our sins and our transgressions (in keeping our duties to You), establish our feet firmly, and give us victory over the disbelieving folk.
+\n\nSurah Al-Imran - 3:147</string>
+
+    <string name="fazilot">Fazilat</string>
+    <string name="banner">ca-app-pub-1260257462944553/7039107994</string>
+
+    <string name="interestitial">ca-app-pub-1260257462944553/8663180850</string>
+    <string name="admob_app_id">ca-app-pub-1260257462944553~9077333573</string>
+    <string name="degree">°</string>
+    <string name="title_activity_find_mosque">Mosque</string>
+    <string name="title_activity_place_direction">Direction</string>
+    <string name="title_activity_compass">Compass</string>
+    <string name="retry">retry</string>
+    <string name="server_is_not_responding">Server is not responding. please try after some time</string>
+    <string name="an_error_occurred_while_searching_for_mosque_near_you">An error occurred while searching for mosque near you. Please try again</string>
+
+
+    <!--<string name="banner">ca-app-pub-3370889863213709/8870874509</string>-->
+    <!--<string name="interestitial">ca-app-pub-3370889863213709/5833647623</string>-->
+    <!--<string name="admob_app_id">ca-app-pub-3370889863213709~6197018827</string>-->
+
+    <!--======NEW======-->
+    <!-- //ca-app-pub-7966332256547705~6471284326-->
+    <!--  <string name="banner">ca-app-pub-3370889863213709/8870874509</string>
+    <string name="interestitial">ca-app-pub-3370889863213709/5833647623</string>
+    <string name="admob_app_id">ca-app-pub-7966332256547705~6471284326</string>-->
+
+    <!--UPDATE-->
+    <!--ca-app-pub-1260257462944553~9077333573
+Banner: ca-app-pub-1260257462944553/7039107994
+InterstitialAd: ca-app-pub-1260257462944553/8663180850-->
+    <string-array name="azan_list_english">
+        <item>0</item>
+        <item>Fajr (dawn)</item>
+        <item>Zuhr (midday)</item>
+        <item>Asr (afternoon)</item>
+        <item>Maghrib (sunset)</item>
+        <item>Isha (night)</item>
+
+    </string-array>
+    <string-array name="azan_hour">
+        <item>0</item>
+        <item>4</item>
+        <item>12</item>
+        <item>16</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+    <string-array name="azan_min">
+        <item>0</item>
+        <item>30</item>
+        <item>45</item>
+        <item>30</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="salah_reminder">
+        <item>0</item>
+        <item>5</item>
+        <item>40</item>
+        <item>15</item>
+        <item>10</item>
+        <item>45</item>
+    </string-array>
+
+</resources>

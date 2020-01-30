@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginTop="4dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time will sync auto when online"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/holo_red_light"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/raleway"
+                    android:text="@string/fajr"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:fontFamily="@font/robotothin"
+                        android:text="@string/alarm_time"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/am_pm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway"
+                        android:text="@string/am_pm"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/alarm_detail_item" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/timeSetType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:fontFamily="@font/raleway"
+                    android:text="@string/auto"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/main"
+        android:layout_marginTop="2dp"
+        android:background="@color/activeDivider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/fazilat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/fazilot"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/alarm_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dp"
+            android:layout_toStartOf="@+id/switch1"
+            android:fontFamily="@font/raleway_medium"
+            android:text="@string/on"
+            android:textAllCaps="true"
+            android:textColor="@color/fadetextcolor"
+            android:textSize="@dimen/alarm_detail_item" />
+
+        <com.suke.widget.SwitchButton
+            android:id="@+id/switch1"
+            android:layout_width="50dp"
+            android:layout_height="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:sb_background="@color/uncheckedcolor"
+            app:sb_border_width="0dp"
+            app:sb_button_color="@color/white"
+            app:sb_checked_color="@color/checkedcolor"
+            app:sb_checkline_color="@color/transparent"
+            app:sb_checkline_width="0dp"
+            app:sb_enable_effect="true"
+            app:sb_shadow_color="@color/transparent"
+            app:sb_shadow_effect="false"
+            app:sb_shadow_offset="2dp"
+            app:sb_shadow_radius="2dp"
+            app:sb_show_indicator="false"
+            app:sb_uncheck_color="@color/transparent"
+
+            app:sb_uncheckcircle_color="@color/transparent"
+            app:sb_uncheckcircle_radius="0dp"
+            app:sb_uncheckcircle_width="0dp"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

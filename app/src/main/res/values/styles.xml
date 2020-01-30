@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/windowbg</item>
+        <item name="colorControlNormal">#FFF
+        </item>   <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">#FFF</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+        <item name="android:actionMenuTextAppearance">@style/menu_text_style</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+
+
+    </style>
+
+    <style name="menu_text_style" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/windowbg</item>
+        <item name="colorControlNormal">#FFF
+        </item>   <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">#FFF</item>
+        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar.CustomBG" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/windowbg</item>
+        <item name="colorControlNormal">#FFF
+        </item>   <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">#FFF</item>
+        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+
+    </style>
+
+    <style name="TimePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/dailogtheme</item>
+        <item name="android:fontFamily">@font/raleway</item>
+    </style>
+
+    <style name="CreateplayListDailog" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize">
+        <item name="colorAccent">@color/dailogtheme</item>
+        <item name="windowFixedWidthMajor">120dp</item>
+        <item name="windowFixedHeightMajor">260dp</item>
+        <item name="android:fontFamily">@font/raleway</item>
+
+    </style>
+
+
+    <style name="editTextNormal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/fadetextcolor</item>
+    </style>
+
+    <style name="AppTheme.Seekbar">
+        <item name="colorControlActivated">#c8104e5b</item>
+        <item name="colorControlNormal">#f527b7c0</item>
+        <item name="colorAccent">#f527b7c0</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+
+    </style>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/compass_skeleton"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/dial_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp">
+
+        <ImageView
+            android:id="@+id/compass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dial"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/direction"
+            android:src="@drawable/kaaba_icon_with_arrow"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:rotation="360"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dial_layout"
+        android:layout_centerInParent="true"
+        android:text="0°"
+        android:textSize="32sp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

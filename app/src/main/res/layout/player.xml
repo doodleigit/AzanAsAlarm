@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/player_bg"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/player_top" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:padding="4dp"
+        android:progress="68"
+        android:splitTrack="false"
+        android:theme="@style/AppTheme.Seekbar"
+        android:thumbTint="#4ff3f9" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginTop="2dp"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/trackplaceholder" />
+
+        <TextView
+            android:id="@+id/selecteditem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_toEndOf="@+id/thumbnail"
+            android:layout_toStartOf="@+id/player"
+            android:ellipsize="end"
+            android:fontFamily="@font/raleway"
+            android:gravity="start"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:text="@string/song"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selecteditem"
+            android:layout_marginEnd="4dp"
+            android:layout_toEndOf="@+id/thumbnail"
+            android:layout_toStartOf="@+id/player"
+            android:ellipsize="end"
+            android:fontFamily="@font/raleway_semibold"
+            android:gravity="start"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:text="@string/artist"
+            android:textColor="@color/fadetextcolor"
+            android:textSize="12sp" />
+
+
+        <LinearLayout
+            android:id="@+id/player"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageButton
+                android:id="@+id/previous"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:contentDescription="@string/app_name"
+                android:padding="2dp"
+                android:src="@drawable/ic_previous"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:contentDescription="@string/app_name"
+                android:padding="2dp"
+                android:src="@drawable/ic_play"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:contentDescription="@string/app_name"
+                android:padding="2dp"
+                android:src="@drawable/ic_next" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

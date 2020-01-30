@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AzanRingingActivity">
+
+    <TextView
+        android:id="@+id/alarm_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/alarm_note"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/raleway"
+        android:paddingBottom="@dimen/alarm_notes_padding"
+        android:text="@string/alarm_time"
+        android:textColor="@color/white"
+        android:textSize="@dimen/alarm_time_front"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/am_pm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/alarm_time"
+        android:layout_toEndOf="@+id/alarm_time"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/am_pm"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/am_pm" />
+
+    <TextView
+        android:id="@+id/alarm_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="center"
+        android:padding="@dimen/alarm_notes_padding"
+        android:textColor="@color/fadetextcolor"
+        android:textSize="@dimen/alarm_detail_item" />
+
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alarm_note"
+        android:layout_marginTop="@dimen/am_pm"
+        app:outer_color="@color/activeAlarmBg"
+        app:slider_icon="@drawable/ic_clear"
+        app:text="Cancel" />
+
+</RelativeLayout>

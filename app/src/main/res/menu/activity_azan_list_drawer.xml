@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_azaan_dua"
+            android:icon="@drawable/adhan"
+            android:title="@string/azaan_dua" />
+        <item
+            android:id="@+id/nav_azaan_benifits"
+            android:icon="@drawable/ic_checkbox_marked"
+            android:title="@string/benifits_fazilat" />
+        <item
+            android:id="@+id/nav_rabbana_dua"
+            android:icon="@drawable/alquran"
+            android:title="@string/rabbana_dua" />
+        <item
+            android:id="@+id/nav_salah_waqt"
+            android:icon="@drawable/salattime"
+            android:title="@string/salat_wakt_time" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/ic_directions_24dp"
+            android:title="@string/compass" />
+        <item
+            android:id="@+id/nav_find_mosque"
+            android:icon="@drawable/adhan"
+            android:title="@string/find_mosque" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate_review"
+                android:title="Rate" />
+            <item
+                android:id="@+id/nav_other_apps"
+                android:icon="@drawable/ic_apps"
+                android:title="More Apps" />
+
+        </menu>
+    </item>
+
+</menu>

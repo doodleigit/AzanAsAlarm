@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="am_pm">18sp</dimen>
+    <dimen name="alarm_time_marging">4dp</dimen>
+    <dimen name="alarm_notes_padding">4dp</dimen>
+    <dimen name="alarm_view_margin">10dp</dimen>
+
+
+    <dimen name="alarm_time_front">36sp</dimen>
+
+
+    <dimen name="alarm_detail_item_heading">16sp</dimen>
+    <dimen name="alarm_detail_item">12sp</dimen>
+
+    <dimen name="alarm_detail_item_padding">10dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_height">176dp</dimen>
+
+
+</resources>

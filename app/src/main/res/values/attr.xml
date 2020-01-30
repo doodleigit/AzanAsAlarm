@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RobotoTextView">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <attr name="typeface" format="enum">
+        <enum name="roboto_thin" value="0" />
+        <enum name="roboto_thin_italic" value="1" />
+        <enum name="roboto_light" value="2" />
+        <enum name="roboto_light_italic" value="3" />
+        <enum name="roboto_regular" value="4" />
+        <enum name="roboto_italic" value="5" />
+        <enum name="roboto_medium" value="6" />
+        <enum name="roboto_medium_italic" value="7" />
+        <enum name="roboto_bold" value="8" />
+        <enum name="roboto_bold_italic" value="9" />
+        <enum name="roboto_black" value="10" />
+        <enum name="roboto_black_italic" value="11" />
+        <enum name="roboto_condensed" value="12" />
+        <enum name="roboto_condensed_italic" value="13" />
+        <enum name="roboto_condensed_bold" value="14" />
+        <enum name="roboto_condensed_bold_italic" value="15" />
+    </attr>
+
+
+    <attr name="sb_shadow_radius" format="reference|dimension" />
+    <attr name="sb_shadow_offset" format="reference|dimension" />
+    <attr name="sb_shadow_color" format="reference|color" />
+    <attr name="sb_uncheck_color" format="reference|color" />
+    <attr name="sb_checked_color" format="reference|color" />
+    <attr name="sb_border_width" format="reference|dimension" />
+    <attr name="sb_checkline_width" format="reference|dimension" />
+    <attr name="sb_uncheckcircle_color" format="reference|color" />
+    <attr name="sb_uncheckcircle_width" format="reference|dimension" />
+    <attr name="sb_uncheckcircle_radius" format="reference|dimension" />
+    <attr name="sb_checked" format="reference|boolean" />
+    <attr name="sb_shadow_effect" format="reference|boolean" />
+    <attr name="sb_effect_duration" format="reference|integer" />
+    <attr name="sb_button_color" format="reference|color" />
+    <attr name="sb_show_indicator" format="reference|boolean" value="false" />
+    <attr name="sb_background" format="reference|color" />
+    <attr name="sb_enable_effect" format="reference|boolean" />
+
+
+</resources>
